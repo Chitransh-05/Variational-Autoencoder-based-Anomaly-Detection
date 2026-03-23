@@ -1,0 +1,7 @@
+Metric,Isolation Forest,Simple VAE,Improvement
+Accuracy,82.64%,90.17%,+0.08%
+Precision,48.60%,85.29%,+0.37%
+Recall,49.04%,50.51%,+0.01%
+F1-Score,48.82%,63.44%,+0.15%
+False Alarm Rate (%),10.54%,1.77%,-0.09%
+Missed Attacks,"43,391","42,139","-1,252"

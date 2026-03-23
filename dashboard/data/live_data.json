@@ -1,0 +1,2461 @@
+{
+  "last_updated": "2026-03-11 00:57:30",
+  "summary": {
+    "session_info": {
+      "interface": "\\Device\\NPF_{CDD19BF1-F5DB-4255-9B24-B8B23462FB0E}",
+      "interface_ip": "192.168.1.10",
+      "capture_duration": 60,
+      "total_packets": 2165,
+      "total_flows": 68,
+      "total_alerts": 21
+    },
+    "statistics": {
+      "decisions": {
+        "NORMAL": 47,
+        "ATTACK": 21
+      },
+      "alert_levels": {
+        "INFO": 47,
+        "WARNING": 21,
+        "CRITICAL": 0
+      },
+      "protocols": {
+        "TCP": 32,
+        "UDP": 35,
+        "Other": 1
+      }
+    }
+  },
+  "recent_alerts": [
+    {
+      "timestamp": "2026-03-11 00:57:24",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.38.223",
+      "src_port": 53520,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 26,
+      "bytes": 15758,
+      "duration": "45.519s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5465,
+      "vae_decision": "NORMAL",
+      "vae_error": 2.8294,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9203,
+      "confidence_margin": 0.893,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9203
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0273
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0231
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:24",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.38.223",
+      "src_port": 56464,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 33,
+      "bytes": 29516,
+      "duration": "46.116s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5763,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.1249,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9191,
+      "confidence_margin": 0.8918,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9191
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0273
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0198
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "52.168.112.66",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 61145,
+      "protocol": "TCP",
+      "packets": 23,
+      "bytes": 21638,
+      "duration": "1.035s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5621,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.5336,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8796,
+      "confidence_margin": 0.7996,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8796
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0799
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0227
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.38.223",
+      "src_port": 64071,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 33,
+      "bytes": 21432,
+      "duration": "0.514s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5579,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.5921,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9129,
+      "confidence_margin": 0.859,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9129
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.054
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0244
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.36.223",
+      "src_port": 53517,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 49,
+      "bytes": 77357,
+      "duration": "45.251s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5992,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.5695,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9145,
+      "confidence_margin": 0.86,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9145
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0545
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0113
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "52.168.112.66",
+      "src_port": 64073,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 20,
+      "bytes": 11197,
+      "duration": "1.217s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5156,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.2741,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8997,
+      "confidence_margin": 0.837,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8997
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0627
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.029
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "142.250.182.42",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 54789,
+      "protocol": "TCP",
+      "packets": 73,
+      "bytes": 44855,
+      "duration": "45.619s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5739,
+      "vae_decision": "NORMAL",
+      "vae_error": 2.2143,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.82,
+      "confidence_margin": 0.7341,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.82
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0859
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0761
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.223.100",
+      "src_port": 64846,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 27,
+      "bytes": 14253,
+      "duration": "0.118s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4734,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4522,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8622,
+      "confidence_margin": 0.7582,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8622
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.104
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0156
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "34.54.84.110",
+      "src_port": 55652,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 82,
+      "bytes": 47859,
+      "duration": "8.124s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5551,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.2719,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9425,
+      "confidence_margin": 0.9097,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9425
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0327
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0158
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "192.178.211.136",
+      "src_port": 49234,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 931,
+      "bytes": 715819,
+      "duration": "33.907s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5517,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4784,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.928,
+      "confidence_margin": 0.8947,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.928
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0332
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0273
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.12.119",
+      "src_port": 64066,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 272,
+      "bytes": 217954,
+      "duration": "28.361s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5442,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.5066,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9505,
+      "confidence_margin": 0.9216,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9505
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0289
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.007
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "173.194.141.138",
+      "src_port": 59183,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 76,
+      "bytes": 21443,
+      "duration": "10.225s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5033,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.3527,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9504,
+      "confidence_margin": 0.9081,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9504
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0423
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0045
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "172.64.155.209",
+      "src_port": 62661,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 19,
+      "bytes": 11573,
+      "duration": "0.465s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4719,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4507,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8574,
+      "confidence_margin": 0.7486,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8574
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.1088
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0156
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.10.132",
+      "src_port": 49946,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 41,
+      "bytes": 24417,
+      "duration": "24.295s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4693,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4172,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9325,
+      "confidence_margin": 0.8993,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9325
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0332
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0272
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.250.182.238",
+      "src_port": 50200,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 56,
+      "bytes": 21766,
+      "duration": "23.648s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4979,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4536,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9504,
+      "confidence_margin": 0.9172,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9504
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0332
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0136
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "34.54.84.110",
+      "src_port": 51533,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 25,
+      "bytes": 8271,
+      "duration": "0.331s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4759,
+      "vae_decision": "NORMAL",
+      "vae_error": 2.4034,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8645,
+      "confidence_margin": 0.767,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8645
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0975
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0157
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:29",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.223.100",
+      "src_port": 50461,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 29,
+      "bytes": 14576,
+      "duration": "0.147s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4762,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.425,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8622,
+      "confidence_margin": 0.7582,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8622
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.104
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0156
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:29",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "173.194.141.167",
+      "src_port": 62584,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 49,
+      "bytes": 17662,
+      "duration": "1.721s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4954,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4154,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8938,
+      "confidence_margin": 0.8076,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8938
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0861
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0111
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:29",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "44.246.57.203",
+      "src_port": 51213,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 27,
+      "bytes": 12372,
+      "duration": "1.226s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5048,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.959,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8959,
+      "confidence_margin": 0.8248,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8959
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.071
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0244
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:30",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "44.246.57.203",
+      "src_port": 53928,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 17,
+      "bytes": 7618,
+      "duration": "0.894s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4585,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.7099,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8744,
+      "confidence_margin": 0.782,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8744
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0925
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0244
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:30",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "34.54.84.110",
+      "src_port": 53929,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 46,
+      "bytes": 26989,
+      "duration": "0.379s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4748,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.5796,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8607,
+      "confidence_margin": 0.7635,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8607
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0971
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0244
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:24",
+      "src_ip": "51.104.15.252",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 60564,
+      "protocol": "TCP",
+      "packets": 17,
+      "bytes": 8838,
+      "duration": "52.763s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.4264,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.6779,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "192.168.196.99",
+      "src_port": 64072,
+      "dst_port": 1445,
+      "protocol": "TCP",
+      "packets": 4,
+      "bytes": 264,
+      "duration": "7.035s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3468,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.0369,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "104.18.32.47",
+      "src_port": 64953,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 8,
+      "bytes": 484,
+      "duration": "45.069s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3574,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4364,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "20.195.84.7",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 54143,
+      "protocol": "TCP",
+      "packets": 28,
+      "bytes": 2216,
+      "duration": "53.395s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.4063,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.2503,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "172.64.148.235",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 64736,
+      "protocol": "TCP",
+      "packets": 9,
+      "bytes": 642,
+      "duration": "40.008s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.379,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.2866,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.4",
+      "dst_ip": "239.255.255.250",
+      "src_port": 56357,
+      "dst_port": 1900,
+      "protocol": "UDP",
+      "packets": 1,
+      "bytes": 167,
+      "duration": "0.001s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3805,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.015,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.36.223",
+      "src_port": 56467,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 8,
+      "bytes": 493,
+      "duration": "14.876s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.392,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.6455,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "44.246.57.203",
+      "src_port": 54652,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 3,
+      "bytes": 163,
+      "duration": "43.522s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3636,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.7304,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "172.64.155.209",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 54474,
+      "protocol": "TCP",
+      "packets": 9,
+      "bytes": 666,
+      "duration": "40.121s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3834,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.2898,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.4",
+      "dst_ip": "224.0.0.251",
+      "src_port": 5353,
+      "dst_port": 5353,
+      "protocol": "UDP",
+      "packets": 3,
+      "bytes": 309,
+      "duration": "40.045s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3739,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.0219,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.1",
+      "dst_ip": "192.168.1.10",
+      "src_port": 0,
+      "dst_port": 0,
+      "protocol": "Other",
+      "packets": 4,
+      "bytes": 392,
+      "duration": "38.987s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3624,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.0232,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "192.168.196.99",
+      "src_port": 62476,
+      "dst_port": 1445,
+      "protocol": "TCP",
+      "packets": 4,
+      "bytes": 264,
+      "duration": "7.021s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3468,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.0205,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 56520,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 227,
+      "duration": "0.004s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3433,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 50410,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 242,
+      "duration": "0.006s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3475,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "100.49.31.61",
+      "src_port": 62856,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 17,
+      "bytes": 3793,
+      "duration": "0.955s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.4464,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.646,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 60229,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 223,
+      "duration": "0.004s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3433,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 64484,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 248,
+      "duration": "0.008s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3495,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 61620,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 215,
+      "duration": "0.013s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.342,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 49921,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 270,
+      "duration": "0.010s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3498,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "185.199.109.153",
+      "src_port": 56394,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 2,
+      "bytes": 121,
+      "duration": "0.030s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3361,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.3485,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "104.18.37.228",
+      "src_port": 54480,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 2,
+      "bytes": 121,
+      "duration": "0.015s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3357,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.2941,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 52636,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 259,
+      "duration": "0.050s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3677,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 50903,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 232,
+      "duration": "0.052s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3614,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "192.168.196.99",
+      "src_port": 52920,
+      "dst_port": 1445,
+      "protocol": "TCP",
+      "packets": 4,
+      "bytes": 264,
+      "duration": "7.030s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3468,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.0147,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 50571,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 215,
+      "duration": "0.024s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.342,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 59434,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 174,
+      "duration": "0.025s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3392,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "3.33.235.18",
+      "src_port": 65463,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 4,
+      "bytes": 271,
+      "duration": "29.878s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3613,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.7173,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 53303,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 219,
+      "duration": "0.024s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3433,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "205.254.161.3",
+      "src_port": 57267,
+      "dst_port": 53,
+      "protocol": "UDP",
+      "packets": 2,
+      "bytes": 258,
+      "duration": "0.027s",
+      "iso_decision": "NORMAL",
+      "iso_score": -0.3511,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.01,
+      "vae_success": true,
+      "final_decision": "NORMAL",
+      "confidence": "HIGH",
+      "alert_level": "INFO",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        }
+      ],
+      "classification_source": "not_applicable_normal_flow"
+    }
+  ],
+  "top_suspicious": [
+    {
+      "timestamp": "2026-03-11 00:57:24",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.38.223",
+      "src_port": 53520,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 26,
+      "bytes": 15758,
+      "duration": "45.519s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5465,
+      "vae_decision": "NORMAL",
+      "vae_error": 2.8294,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9203,
+      "confidence_margin": 0.893,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9203
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0273
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0231
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:24",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.38.223",
+      "src_port": 56464,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 33,
+      "bytes": 29516,
+      "duration": "46.116s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5763,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.1249,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9191,
+      "confidence_margin": 0.8918,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9191
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0273
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0198
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "52.168.112.66",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 61145,
+      "protocol": "TCP",
+      "packets": 23,
+      "bytes": 21638,
+      "duration": "1.035s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5621,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.5336,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8796,
+      "confidence_margin": 0.7996,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8796
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0799
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0227
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.38.223",
+      "src_port": 64071,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 33,
+      "bytes": 21432,
+      "duration": "0.514s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5579,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.5921,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9129,
+      "confidence_margin": 0.859,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9129
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.054
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0244
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "216.239.36.223",
+      "src_port": 53517,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 49,
+      "bytes": 77357,
+      "duration": "45.251s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5992,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.5695,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9145,
+      "confidence_margin": 0.86,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9145
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0545
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0113
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:25",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "52.168.112.66",
+      "src_port": 64073,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 20,
+      "bytes": 11197,
+      "duration": "1.217s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5156,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.2741,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8997,
+      "confidence_margin": 0.837,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8997
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0627
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.029
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "142.250.182.42",
+      "dst_ip": "192.168.1.10",
+      "src_port": 443,
+      "dst_port": 54789,
+      "protocol": "TCP",
+      "packets": 73,
+      "bytes": 44855,
+      "duration": "45.619s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5739,
+      "vae_decision": "NORMAL",
+      "vae_error": 2.2143,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.82,
+      "confidence_margin": 0.7341,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.82
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0859
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0761
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.223.100",
+      "src_port": 64846,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 27,
+      "bytes": 14253,
+      "duration": "0.118s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4734,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4522,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8622,
+      "confidence_margin": 0.7582,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8622
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.104
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0156
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:26",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "34.54.84.110",
+      "src_port": 55652,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 82,
+      "bytes": 47859,
+      "duration": "8.124s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5551,
+      "vae_decision": "NORMAL",
+      "vae_error": 3.2719,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9425,
+      "confidence_margin": 0.9097,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9425
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0327
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0158
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "192.178.211.136",
+      "src_port": 49234,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 931,
+      "bytes": 715819,
+      "duration": "33.907s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5517,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4784,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.928,
+      "confidence_margin": 0.8947,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.928
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0332
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0273
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.12.119",
+      "src_port": 64066,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 272,
+      "bytes": 217954,
+      "duration": "28.361s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5442,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.5066,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9505,
+      "confidence_margin": 0.9216,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9505
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0289
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.007
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:27",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "173.194.141.138",
+      "src_port": 59183,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 76,
+      "bytes": 21443,
+      "duration": "10.225s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5033,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.3527,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9504,
+      "confidence_margin": 0.9081,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9504
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0423
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0045
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "172.64.155.209",
+      "src_port": 62661,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 19,
+      "bytes": 11573,
+      "duration": "0.465s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4719,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4507,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8574,
+      "confidence_margin": 0.7486,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8574
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.1088
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0156
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.10.132",
+      "src_port": 49946,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 41,
+      "bytes": 24417,
+      "duration": "24.295s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4693,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4172,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9325,
+      "confidence_margin": 0.8993,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9325
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0332
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0272
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.250.182.238",
+      "src_port": 50200,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 56,
+      "bytes": 21766,
+      "duration": "23.648s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4979,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4536,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9504,
+      "confidence_margin": 0.9172,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9504
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0332
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0136
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:28",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "34.54.84.110",
+      "src_port": 51533,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 25,
+      "bytes": 8271,
+      "duration": "0.331s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4759,
+      "vae_decision": "NORMAL",
+      "vae_error": 2.4034,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8645,
+      "confidence_margin": 0.767,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8645
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0975
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0157
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:29",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "142.251.223.100",
+      "src_port": 50461,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 29,
+      "bytes": 14576,
+      "duration": "0.147s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4762,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.425,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8622,
+      "confidence_margin": 0.7582,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8622
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.104
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0156
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:29",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "173.194.141.167",
+      "src_port": 62584,
+      "dst_port": 443,
+      "protocol": "UDP",
+      "packets": 49,
+      "bytes": 17662,
+      "duration": "1.721s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4954,
+      "vae_decision": "NORMAL",
+      "vae_error": 0.4154,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8938,
+      "confidence_margin": 0.8076,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8938
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0861
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0111
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:29",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "44.246.57.203",
+      "src_port": 51213,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 27,
+      "bytes": 12372,
+      "duration": "1.226s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.5048,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.959,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8959,
+      "confidence_margin": 0.8248,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8959
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.071
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0244
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    },
+    {
+      "timestamp": "2026-03-11 00:57:30",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "44.246.57.203",
+      "src_port": 53928,
+      "dst_port": 443,
+      "protocol": "TCP",
+      "packets": 17,
+      "bytes": 7618,
+      "duration": "0.894s",
+      "iso_decision": "ATTACK",
+      "iso_score": -0.4585,
+      "vae_decision": "NORMAL",
+      "vae_error": 1.7099,
+      "vae_success": true,
+      "final_decision": "ATTACK",
+      "confidence": "MEDIUM",
+      "alert_level": "WARNING",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.8744,
+      "confidence_margin": 0.782,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.8744
+        },
+        {
+          "attack_type": "DoS",
+          "probability": 0.0925
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0244
+        }
+      ],
+      "classification_source": "random_forest_multiclass"
+    }
+  ]
+}

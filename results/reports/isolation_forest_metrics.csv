@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1_Score,Training_Time_sec,Prediction_Time_sec,False_Positives,False_Negatives,False_Alarm_Rate,Attack_Detection_Rate
+Isolation Forest,0.8263674970395775,0.4860409341746804,0.49035107295129143,0.48818649032642825,9.37487530708313,2.0334832668304443,44146,43391,10.535736446688878,49.035107295129144

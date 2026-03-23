@@ -1,0 +1,167 @@
+[
+  {
+    "timestamp": "2026-03-10 22:30:00",
+    "src_ip": "10.0.0.1",
+    "dst_ip": "192.168.1.10",
+    "src_port": 50000,
+    "dst_port": 22,
+    "protocol": "TCP",
+    "packets": 41,
+    "bytes": 2664,
+    "vae_error": 2.5,
+    "final_decision": "ATTACK",
+    "alert_level": "WARNING",
+    "ground_truth_attack_type": "Normal Traffic",
+    "predicted_attack_type": "Normal Traffic",
+    "attack_confidence": 1.0,
+    "confidence_margin": 1.0,
+    "is_low_confidence": false,
+    "top_3_attack_types": [
+      {
+        "attack_type": "Normal Traffic",
+        "probability": 1.0
+      },
+      {
+        "attack_type": "Web Attacks",
+        "probability": 0.0
+      },
+      {
+        "attack_type": "Port Scanning",
+        "probability": 0.0
+      }
+    ],
+    "classification_source": "random_forest_multiclass"
+  },
+  {
+    "timestamp": "2026-03-10 22:30:00",
+    "src_ip": "10.0.0.2",
+    "dst_ip": "192.168.1.10",
+    "src_port": 50001,
+    "dst_port": 22,
+    "protocol": "TCP",
+    "packets": 41,
+    "bytes": 2664,
+    "vae_error": 2.5,
+    "final_decision": "ATTACK",
+    "alert_level": "WARNING",
+    "ground_truth_attack_type": "Normal Traffic",
+    "predicted_attack_type": "Normal Traffic",
+    "attack_confidence": 1.0,
+    "confidence_margin": 1.0,
+    "is_low_confidence": false,
+    "top_3_attack_types": [
+      {
+        "attack_type": "Normal Traffic",
+        "probability": 1.0
+      },
+      {
+        "attack_type": "Web Attacks",
+        "probability": 0.0
+      },
+      {
+        "attack_type": "Port Scanning",
+        "probability": 0.0
+      }
+    ],
+    "classification_source": "random_forest_multiclass"
+  },
+  {
+    "timestamp": "2026-03-10 22:30:00",
+    "src_ip": "10.0.0.3",
+    "dst_ip": "192.168.1.10",
+    "src_port": 50002,
+    "dst_port": 22,
+    "protocol": "TCP",
+    "packets": 1,
+    "bytes": 0,
+    "vae_error": 2.5,
+    "final_decision": "ATTACK",
+    "alert_level": "WARNING",
+    "ground_truth_attack_type": "Normal Traffic",
+    "predicted_attack_type": "Normal Traffic",
+    "attack_confidence": 0.9475,
+    "confidence_margin": 0.9006,
+    "is_low_confidence": false,
+    "top_3_attack_types": [
+      {
+        "attack_type": "Normal Traffic",
+        "probability": 0.9475
+      },
+      {
+        "attack_type": "Brute Force",
+        "probability": 0.0469
+      },
+      {
+        "attack_type": "Web Attacks",
+        "probability": 0.0054
+      }
+    ],
+    "classification_source": "random_forest_multiclass"
+  },
+  {
+    "timestamp": "2026-03-10 22:30:00",
+    "src_ip": "10.0.0.4",
+    "dst_ip": "192.168.1.10",
+    "src_port": 50003,
+    "dst_port": 22,
+    "protocol": "TCP",
+    "packets": 41,
+    "bytes": 2728,
+    "vae_error": 2.5,
+    "final_decision": "ATTACK",
+    "alert_level": "WARNING",
+    "ground_truth_attack_type": "Normal Traffic",
+    "predicted_attack_type": "Normal Traffic",
+    "attack_confidence": 1.0,
+    "confidence_margin": 1.0,
+    "is_low_confidence": false,
+    "top_3_attack_types": [
+      {
+        "attack_type": "Normal Traffic",
+        "probability": 1.0
+      },
+      {
+        "attack_type": "Web Attacks",
+        "probability": 0.0
+      },
+      {
+        "attack_type": "Port Scanning",
+        "probability": 0.0
+      }
+    ],
+    "classification_source": "random_forest_multiclass"
+  },
+  {
+    "timestamp": "2026-03-10 22:30:00",
+    "src_ip": "10.0.0.5",
+    "dst_ip": "192.168.1.10",
+    "src_port": 50004,
+    "dst_port": 35396,
+    "protocol": "TCP",
+    "packets": 1,
+    "bytes": 0,
+    "vae_error": 2.5,
+    "final_decision": "ATTACK",
+    "alert_level": "WARNING",
+    "ground_truth_attack_type": "Normal Traffic",
+    "predicted_attack_type": "Normal Traffic",
+    "attack_confidence": 1.0,
+    "confidence_margin": 1.0,
+    "is_low_confidence": false,
+    "top_3_attack_types": [
+      {
+        "attack_type": "Normal Traffic",
+        "probability": 1.0
+      },
+      {
+        "attack_type": "Web Attacks",
+        "probability": 0.0
+      },
+      {
+        "attack_type": "Port Scanning",
+        "probability": 0.0
+      }
+    ],
+    "classification_source": "random_forest_multiclass"
+  }
+]

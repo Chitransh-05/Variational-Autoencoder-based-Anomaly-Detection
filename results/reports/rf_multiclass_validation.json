@@ -1,0 +1,227 @@
+{
+  "verification_rows": 504151,
+  "accuracy": 0.9987,
+  "top_3_hit_rate": 1.0,
+  "mean_prediction_confidence": 0.9965,
+  "median_prediction_confidence": 1.0,
+  "mean_confidence_margin": 0.9934,
+  "low_confidence_rate": 0.0021,
+  "confidence_by_correctness": {
+    "correct_mean": 0.9968,
+    "incorrect_mean": 0.81,
+    "correct_margin_mean": 0.9938,
+    "incorrect_margin_mean": 0.6304
+  },
+  "sample_predictions": [
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "DDoS",
+      "predicted_attack_type": "DDoS",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "DDoS",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "DoS",
+      "predicted_attack_type": "DoS",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "DoS",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 0.9875,
+      "confidence_margin": 0.9749,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 0.9875
+        },
+        {
+          "attack_type": "Bots",
+          "probability": 0.0125
+        },
+        {
+          "attack_type": "DDoS",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        }
+      ]
+    },
+    {
+      "actual_attack_type": "Normal Traffic",
+      "predicted_attack_type": "Normal Traffic",
+      "attack_confidence": 1.0,
+      "confidence_margin": 1.0,
+      "is_low_confidence": false,
+      "top_3_attack_types": [
+        {
+          "attack_type": "Normal Traffic",
+          "probability": 1.0
+        },
+        {
+          "attack_type": "Web Attacks",
+          "probability": 0.0
+        },
+        {
+          "attack_type": "Port Scanning",
+          "probability": 0.0
+        }
+      ]
+    }
+  ]
+}

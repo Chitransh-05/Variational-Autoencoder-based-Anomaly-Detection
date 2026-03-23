@@ -1,0 +1,36 @@
+{
+  "session_info": {
+    "timestamp": "20251217_172636",
+    "duration_seconds": 60,
+    "total_packets": 15245,
+    "total_flows": 1894,
+    "total_alerts": 248
+  },
+  "statistics": {
+    "decisions": {
+      "NORMAL": 1644,
+      "SUSPICIOUS": 231,
+      "ATTACK": 17
+    },
+    "alert_levels": {
+      "SAFE": 1644,
+      "WARNING": 231,
+      "CRITICAL": 17
+    },
+    "protocols": {
+      "TCP": 1226,
+      "UDP": 662,
+      "OTHER": 4
+    }
+  },
+  "averages": {
+    "duration": 0.14163495823898475,
+    "packets_per_flow": 8.040697674418604,
+    "bytes_per_flow": 8064.4260042283295,
+    "vae_error": 14.959548421497434
+  },
+  "thresholds": {
+    "vae_threshold": 138.23936671037973,
+    "vae_threshold_original": 0.1907
+  }
+}
